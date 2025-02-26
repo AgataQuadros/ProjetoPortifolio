@@ -8,3 +8,75 @@
 body {
     background-color: #33071C;
 }
+
+
+header {
+    height: 100%;
+    text-align: center;
+    background-color: #e3bccf;
+    color: #8b2d3c;
+}
+
+header h1 {
+    font-family: "Mea Culpa", serif;
+    font-weight: 400;
+    font-size: 8rem;
+}
+
+nav {
+    color: #8b2d3c;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.25rem;
+    justify-content: center;
+}
+
+nav a {
+    color: #8b2d3c;
+    text-decoration: none;
+    padding: 18px; margin: 5px 50px;
+}
+
+nav a:hover {
+    color: #FFCAEA;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Pavanam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #ffe6ff;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: #ffff;
+}
+
+footer {
+    text-align: center;
+    color: #A6567B;
+}
+
+.float-left {
+    float: left;
+    margin: 10px;
+}
+
+.float-rigth {
+    float: right;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
