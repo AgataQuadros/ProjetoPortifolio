@@ -69,30 +69,17 @@ p {
     font-style: normal;
     font-size: 1.4rem;
     color: #ffff;
+    padding: 2px;
 }
 
 section {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 footer p{
     font-size: 1rem;
     text-align: center;
     color: #A6567B;
-}
-
-.float-left img{
-    float: left;
-    margin: 10px;
-}
-
-.float-rigth img{
-    float: right;
-    margin: 10px;
-}
-
-.clear {
-    clear: both;
 }
 
 .box-fixo {
@@ -107,4 +94,33 @@ footer p{
 
 .box-fixo a {
     text-decoration: none;
+}
+
+.float_left img {
+    float: left;
+    margin-right: 15px;
+}
+
+.float_rigth img {
+    float: right;
+    margin-left: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.fechar p{
+    padding-top: 4px;
+    width: 70%;
+    text-align: justify;
+}
+
+.fechar h2 {
+    padding-right: 30rem;
+}
+
+.tabela {
+    text-align: center;
+    padding-left: 40rem;
 }
