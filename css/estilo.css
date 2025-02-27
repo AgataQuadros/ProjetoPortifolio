@@ -12,15 +12,22 @@ body {
 
 header {
     height: 100%;
-    text-align: center;
-    background-color: #e3bccf;
-    color: #8b2d3c;
 }
 
 header h1 {
+    text-align: center;
+    color: #8b2d3c;
     font-family: "Mea Culpa", serif;
     font-weight: 400;
     font-size: 8rem;
+}
+
+header img {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
 }
 
 nav {
@@ -32,6 +39,7 @@ nav {
 }
 
 nav a {
+    z-index: 2;
     color: #8b2d3c;
     text-decoration: none;
     padding: 18px; margin: 5px 50px;
@@ -47,6 +55,7 @@ main {
 }
 
 h2 {
+    text-align: center;
     font-family: "Pavanam", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -62,21 +71,40 @@ p {
     color: #ffff;
 }
 
-footer {
+section {
+    padding: 20px;
+}
+
+footer p{
+    font-size: 1rem;
     text-align: center;
     color: #A6567B;
 }
 
-.float-left {
+.float-left img{
     float: left;
     margin: 10px;
 }
 
-.float-rigth {
+.float-rigth img{
     float: right;
     margin: 10px;
 }
 
 .clear {
     clear: both;
+}
+
+.box-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #A6567B;
+    color: #F23064;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.box-fixo a {
+    text-decoration: none;
 }
